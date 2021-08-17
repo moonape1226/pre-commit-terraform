@@ -1,0 +1,8 @@
+- id: managed_tag_check
+  name: check terraform files have managed tags
+  description: Check Terraform source has tag `"Managed" = "Terraform"`
+  require_serial: true
+  entry: managed_tag_check.sh
+  language: script
+  files: (\.tf)$
+  exclude: \.terraform\/.*$
