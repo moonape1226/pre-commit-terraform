@@ -42,3 +42,7 @@ Check the [source file](https://github.com/moonape1226/pre-commit-terraform/blob
 ## License
 
 MIT licensed. See LICENSE for full details.
+
+## Acknowledgement
+
+This repository is inspired by [antonbabenko/pre-commit-terraform](https://github.com/antonbabenko/pre-commit-terraform).
